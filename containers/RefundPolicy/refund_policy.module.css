@@ -1,0 +1,20 @@
+.refundPolicy {}
+
+.refundPolicyContent {
+    border-top: 1px solid var(--primary-50);
+}
+
+.refundPolicyContent ul {
+    font-family: var(--font-family);
+    list-style: none;
+}
+
+.refundPolicyContent h6 {
+    padding: 2rem 0 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .refundPolicy {
+        padding: 4rem 0 0 0;
+    }
+}

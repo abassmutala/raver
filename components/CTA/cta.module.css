@@ -1,0 +1,107 @@
+.cta{
+    background-color: #FFFFFF;
+}
+
+.ctaContainer{
+    padding: 2rem 0 0;
+}
+
+.ctaContainer section{
+    padding: 2rem 1rem;
+}
+
+.ctaImg {
+    background-image: url("/images/mic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.ctaContainer section {
+    max-width: 768px;
+}
+
+.titleText {
+    display: block;
+    text-transform: uppercase;
+}
+
+.ctaText h3 {
+    margin: 0.125rem 0 1rem;
+}
+
+.description {
+    margin: 0 0 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .ctaContainer {
+        display: flex;
+        padding: 0;
+    }
+
+    .ctaImg {
+        width: 50%;
+        /* height: 640px; */
+    }
+
+    .ctaContainer section {
+        /* width: 50%; */
+        flex: 0 0 50%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        padding: 6rem 0;
+    }
+
+    .ctaText {
+        max-width: 360px;
+    }
+
+    .titleText {
+        margin: 0 0 1rem;
+    }
+
+    /* .ctaText button{} */
+}
+
+/* .cta {
+    font-family: var(--font-family);
+    background-image: url(./../public/images/download.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ctaContainer {
+    background-color: rgba(0, 52, 116, 0.2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.ctaContainer section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.ctaText {
+    max-width: 768px;
+}
+
+.ctaText h4 {
+    margin: 0 0 1rem;
+}
+
+.ctaText p {
+    margin: 0 0 2rem;
+}
+
+.ctaText button:hover {
+    color: var(--secondary-color);
+} */

@@ -1,0 +1,28 @@
+.mainAndAside {
+    background-color: #FFFFFF;
+}
+
+.mainAndAsideContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    /* .mainAndAside {} */
+
+    .mainAndAsideContent {
+        grid-template-columns: repeat(12, 1fr);
+        gap: 2rem;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .main {
+        grid-column: 1/9;
+    }
+
+    .aside {
+        grid-column: 9/13;
+    }
+}

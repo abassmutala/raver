@@ -1,0 +1,47 @@
+.trending {
+    background-color: var(--background-color);
+}
+
+.trendingContainer {
+    position: relative;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.trendTabs {
+    width: 100%;
+}
+
+.trendingEventsList {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 4rem 0 0;
+}
+
+.adCard {
+    background-image: url('/images/presentation.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .trendingEventsList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .trendingEventsList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .trendingEventsList{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}

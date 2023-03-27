@@ -1,0 +1,20 @@
+.categories {
+    background-color: var(--background-color);
+}
+
+.categoriesContainer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.categoriesSwiper {
+    padding: 12px;
+}
+
+@media screen and (min-width: 1024px) {
+    /* .categoriesContainer {} */
+}
+
+@media screen and (min-width: 1280px) {
+    /* .categoriesContainer {} */
+}

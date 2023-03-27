@@ -1,0 +1,44 @@
+.heading {
+    background-color: transparent;
+    margin: 0 0 1rem;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailingComponent{
+    font-family: var(--font-family);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+
+.trailingComponent:hover .forwardIcon {
+    /* transform: translate(0, 1); */
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 400ms;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.buttonText{
+    margin-right: 4px;
+}
+
+.forwardIcon {
+    margin-left: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+    .heading {
+        margin: 0 0 2rem;
+    }
+}

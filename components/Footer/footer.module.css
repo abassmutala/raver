@@ -1,0 +1,156 @@
+.footer {
+    background-color: var(--footer-bg);
+    font-family: var(--font-family);
+}
+
+.footerContainer {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.footerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 2rem;
+    padding: 0 0 2rem;
+    border-bottom: 1px solid white;
+}
+
+.footerLogo {
+    /* filter: invert(1); */
+    margin: 0 0 2rem;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.socialIcon {
+    font-size: 24px;
+    color: #000;
+}
+
+.socialIcon:hover {
+    color: var(--primary-color);
+}
+
+.mainNav {
+    margin: 2rem 0;
+}
+
+.navListHeader {
+    margin: 0 0 0.5rem;
+    font-weight: 700;
+}
+
+.navListLinks {
+    list-style: none;
+}
+
+.navListItem {
+    padding: 0.5rem 0;
+}
+
+.navListItem a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* .footer-bottom {
+    
+} */
+
+.footerLinks {
+    list-style: none;
+    margin: 0 0 1rem;
+}
+
+.linkItem {
+    padding: 0.5rem 0;
+}
+
+.linkItem span {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.linkItem:hover {
+    text-decoration: underline;
+}
+
+/* .copyright {
+    
+} */
+
+@media screen and (min-width: 1024px) {
+    .footerTop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socialLinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 25%;
+    }
+
+    .footerLogo {
+        margin: 0;
+    }
+
+    .mainNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0 0;
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        align-self: flex-start;
+        width: auto;
+    }
+
+    .navListItem {
+        padding: 0.5rem 0;
+    }
+
+    .navListItem:hover {
+        text-decoration: underline;
+    }
+
+    .footerBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4rem 0 0;
+        /* border-top: 1px solid #FFFFFF; */
+    }
+
+    .footerLinks {
+        display: flex;
+        margin: 0;
+    }
+
+    .linkItem {
+        color: #000;
+        margin: 0 2rem 0 0;
+        /* padding: 0 1rem; */
+    }
+
+    /* .copyright {
+    } */
+}

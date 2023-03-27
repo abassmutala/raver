@@ -1,0 +1,150 @@
+.sectionPadding {
+    padding: 2rem 1rem;
+}
+
+.sectionMargin {
+    margin: 2rem 1rem;
+}
+
+.scaleUpCenter {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.btnElevated,
+.btnOutlined,
+.btnFlat {
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 700;
+    transition: all 0.3s ease-out;
+}
+
+.btnElevated {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+
+.btnOutlined,
+.btnFlat {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.btnOutlined {
+    border: 2px solid var(--primary-color);
+}
+
+.btnFlat {
+    border: none;
+}
+
+.btnElevated:hover {
+    background-color: var(--button-hover);
+    color: var(--primary-color);
+}
+
+.btnFlat:hover {
+    background-color: var(--button-hover);
+}
+
+.btnLg {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skeleton {
+    opacity: 0.7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.blockSkeleton {
+    width: 100%;
+    /* height: 4rem; */
+    /* margin-bottom: .45rem; */
+    border-radius: .5rem;
+}
+
+.headingSkeleton {
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: .45rem;
+    border-radius: .25rem;
+}
+
+.avatarSkeleton {
+    /* width: 100%; */
+    /* height: 10px; */
+    aspect-ratio: 1;
+    /* margin-bottom: .45rem; */
+    border-radius: 999rem;
+}
+
+.textSkeleton {
+    width: 100%;
+    height: 10px;
+    margin-bottom: .45rem;
+    border-radius: .25rem;
+}
+
+.textSkeleton:last-of-type {
+    width: 85%;
+    margin-bottom: 0;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 70%);
+    }
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+  }
+
+@media screen and (min-width: 768px) {
+    .sectionPadding {
+        padding: 4rem;
+    }
+
+    .sectionMargin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sectionPadding {
+        padding: 4rem 6rem;
+    }
+
+    .sectionMargin {
+        margin: 4rem 6rem;
+    }
+}

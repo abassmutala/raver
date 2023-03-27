@@ -1,0 +1,49 @@
+/* .tabContainer {} */
+
+.tabButtons {
+    margin-top: 2.rem;
+    font-family: var(--font-family);
+}
+
+.tabButtons ul {
+    margin-bottom: -1px;
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
+    border-bottom: 1px solid #000000;
+}
+
+.activeTab,
+.inactiveTab {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    /* transition: all 0.3s ease-out; */
+}
+
+.inactiveTab {
+    color: #000000;
+
+}
+
+.inactiveTab:hover {
+    border-bottom: 2px solid grey;
+    border-bottom-style: inset;
+}
+
+.activeTab {
+    border-bottom: 0.25rem solid var(--primary-color);
+    border-bottom-style: inset;
+    color: var(--primary-color);
+}
+
+.tabContent {
+    margin: 2rem 0 0;
+    font-family: var(--font-family);
+}

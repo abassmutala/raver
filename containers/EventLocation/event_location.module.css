@@ -1,0 +1,41 @@
+.eventLocation{}
+
+.eventLocationContent{
+    border-top: 1px solid var(--primary-50);
+}
+
+.eventLocationContent h6 {
+    padding: 2rem 0 0 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding: 0 0 2rem 0;
+}
+
+.iconContainer{
+    border-radius: .25rem;
+    background-color: var(--primary-50);
+    padding: 8px;
+    aspect-ratio: 1;
+    margin: 0 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptiveIcon {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.address{
+    font-family: var(--font-family);
+}
+
+@media screen and (min-width: 1024px) {
+    .eventLocation {
+        padding: 4rem 0 0 0;
+    }
+}

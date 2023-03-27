@@ -1,0 +1,73 @@
+.eventBrief {
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) {
+    .eventBrief {
+        background-color: #FFFFFF;
+    }
+}
+
+/* .eventBriefContainer {
+    margin: 0 3rem 0 0; */
+    /* max-width: 1440px;
+    margin: 0 auto;
+} */
+
+/* .briefText {
+    max-width: 60%;
+} */
+
+.eventCollectionName {
+    display: block;
+    margin: 0.5rem 0 0 0;
+}
+
+.eventDescription {
+    display: block;
+    padding: 2rem 0 0 0;
+}
+
+.eventOrganisers {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem 0 0 0;
+}
+
+.organiserAvatar {
+    width: 64px;
+    aspect-ratio: 1;
+    border-radius: 999px;
+    background-color: var(--button-hover);
+    margin: 0 2rem 0 0;
+}
+
+.orgainserNameAndFollowers {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .organiserName {
+    padding: 0 0 0.5rem;
+} */
+
+.organiserFollowers {
+    /* padding: 0 0 0.5rem; */
+    color: #909090;
+}
+
+.button {
+    max-width: min-content;
+    padding: 4px 8px;
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
