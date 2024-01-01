@@ -4,7 +4,7 @@ A Next.js webapp for viewing event details and purchasing of tickets
 
 <h4> <span> · </span> <a href="https://github.com/abassmutala/raver/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/abassmutala/raver/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/abassmutala/raver/issues"> Request Feature </a> </h4>
 
-<img src=https://media.licdn.com/dms/image/D4D22AQGtvRY9OMVN_Q/feedshare-shrink_2048_1536/0/1704085057374?e=1706745600&v=beta&t=b7rlP831yrvaicuJIWIFvez2uIlvI5qs8XsanifvqMo alt="logo" width= height= />
+[https://media.licdn.com/dms/image/D4D22AQGtvRY9OMVN_Q/feedshare-shrink_2048_1536/0/1704085057374?e=1706745600&v=beta&t=b7rlP831yrvaicuJIWIFvez2uIlvI5qs8XsanifvqMo](Homepage screenshot)
 
 # :notebook_with_decorative_cover: Table of Contents
 
